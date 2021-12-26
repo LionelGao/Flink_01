@@ -46,7 +46,7 @@ public class TableTest1_Example {
 
         tableEnv.toAppendStream(resultTable, Row.class).print("result");
         tableEnv.toAppendStream(resultSqlTable, Row.class).print("sql");
-
+        // 7.
         env.execute();
     }
 }
